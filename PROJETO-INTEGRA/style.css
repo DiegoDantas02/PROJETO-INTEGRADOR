@@ -39,6 +39,7 @@ body{
     
 }
 .lista{
+    float: left;
     text-align: right;
     top: 4%;
 }
