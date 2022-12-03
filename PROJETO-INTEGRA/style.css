@@ -16,19 +16,29 @@ body{
     background-color: #ebc697;
     padding: 40px;
     border: solid black;
-    margin-top: -30px;
+    margin-top: -25px;
     margin-left: -7.6px;
     margin-right: -7.5px;
     font-size: 20px;
 }
+/* imagem icono */
 .div1{
- position: absolute;
- left: 1250px;
- top: 0;
- 
+ position: absolute; 
+ left: 95%;
+ top: 3%;
 }
-.di2{
-    position: ;
-    top: 50px;
-    right: -80px;
+/* imagem do logo */
+.div2{
+    position: absolute;
+    top: 1%;
+}
+#divBusca{
+    position: absolute;
+    top: 6%;
+    left: 300px;
+    
+}
+.lista{
+    text-align: right;
+    top: 4%;
 }
