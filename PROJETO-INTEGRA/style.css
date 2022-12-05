@@ -1,45 +1,43 @@
-body{
-    background-color: #8a7e6e;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.h1{
-    display: flex;
+.cabecalho{
     background-color: #de985e;
-    padding: 60px;
-    margin-top: -8px;
-    margin-left: -7.6px;
-    margin-right: -7.5px;
-    border: 2px solid black;
+    height: 210px;
+    border: solid black 2px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-adota{
+    width: 500px;
+    height: 200px;
+}
+li{
+    display: inline-block;
+    font-size: 23px;
+    color:white;
+    margin: 100px 40px 0 40px; 
+}
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+    transition: 1s;
+
 }
 .paragrafo{
-    display: flex;
     background-color: #ebc697;
-    padding: 40px;
-    border: solid black;
-    margin-top: -25px;
-    margin-left: -7.6px;
-    margin-right: -7.5px;
-    font-size: 20px;
-}
-/* imagem icono */
-.div1{
- position: absolute; 
- left: 95%;
- top: 3%;
-}
-/* imagem do logo */
-.div2{
-    position: absolute;
-    top: 1%;
-}
-#divBusca{
-    position: absolute;
-    top: 6%;
-    left: 300px;
+    height: 100px;
+    border: solid black 2px;
     
 }
-.lista{
-    float: left;
-    text-align: right;
-    top: 4%;
+.container2{
+    
 }
